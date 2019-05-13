@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0412637922898B77000FA9FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412637822898B77000FA9FC /* AppDelegate.swift */; };
-		0412637B22898B77000FA9FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412637A22898B77000FA9FC /* ViewController.swift */; };
 		0412637E22898B77000FA9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0412637C22898B77000FA9FC /* Main.storyboard */; };
 		0412638022898B78000FA9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0412637F22898B78000FA9FC /* Assets.xcassets */; };
 		0412638322898B78000FA9FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0412638122898B78000FA9FC /* LaunchScreen.storyboard */; };
+		0412638B22898BB3000FA9FC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412638A22898BB3000FA9FC /* TableViewController.swift */; };
+		0412638D22898CC1000FA9FC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412638C22898CC1000FA9FC /* ViewModel.swift */; };
+		0412638F22898DDA000FA9FC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412638E22898DDA000FA9FC /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0412637522898B77000FA9FC /* MVVM-Injection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Injection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0412637822898B77000FA9FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0412637A22898B77000FA9FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0412637D22898B77000FA9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0412637F22898B78000FA9FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0412638222898B78000FA9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0412638422898B78000FA9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0412638A22898BB3000FA9FC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		0412638C22898CC1000FA9FC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0412638E22898DDA000FA9FC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				0412637822898B77000FA9FC /* AppDelegate.swift */,
-				0412637A22898B77000FA9FC /* ViewController.swift */,
 				0412637C22898B77000FA9FC /* Main.storyboard */,
 				0412637F22898B78000FA9FC /* Assets.xcassets */,
 				0412638122898B78000FA9FC /* LaunchScreen.storyboard */,
 				0412638422898B78000FA9FC /* Info.plist */,
+				0412638A22898BB3000FA9FC /* TableViewController.swift */,
+				0412638C22898CC1000FA9FC /* ViewModel.swift */,
+				0412638E22898DDA000FA9FC /* NetworkManager.swift */,
 			);
 			path = "MVVM-Injection";
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0412637B22898B77000FA9FC /* ViewController.swift in Sources */,
+				0412638B22898BB3000FA9FC /* TableViewController.swift in Sources */,
+				0412638F22898DDA000FA9FC /* NetworkManager.swift in Sources */,
+				0412638D22898CC1000FA9FC /* ViewModel.swift in Sources */,
 				0412637922898B77000FA9FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
